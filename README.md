@@ -131,11 +131,15 @@ This document outlines the design of a **Food Order & Delivery System** using Do
 
 ---
 
-#### Prioritization:
-1. **Order Management**: Highest business value due to its direct impact on customer satisfaction and revenue generation.
-2. **Delivery Management**: Critical for ensuring timely and efficient deliveries, directly affecting customer experience.
-3. **Payment Gateway**: Important for handling financial transactions securely and maintaining user trust.
-4. **Authentication & Authorization**: Essential for securing the platform, managing user access, and ensuring compliance with security protocols
+### Prioritization:
+
+| **Priority** | **Domain**| **Description**|
+|--------------|-----------|----------------|
+| 1            | **Order Management**| Highest business value due to its direct impact on customer satisfaction and revenue generation.|
+| 2            | **Delivery Management** | Critical for ensuring timely and efficient deliveries, directly affecting customer experience.|
+| 3            | **Payment Gateway**| Important for handling financial transactions securely and maintaining user trust.|
+| 4            | **Authentication & Authorization**| Essential for securing the platform, managing user access, and ensuring compliance with security protocols. |
+
 
 ---
 
