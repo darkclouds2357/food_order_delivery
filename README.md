@@ -21,77 +21,85 @@ This document outlines the design of a **Food Order & Delivery System** using Do
 
 
 ### Key Elements:
-
-- **Value Propositions**:
-  - **Convenience**: Customers can order food from various restaurants without leaving their location. Options for high-end, mid-range, and budget-conscious customers.
-  - **Variety**: A wide range of restaurants and cuisines available to order from a single platform.
-  - **Speed/Tracking**: On-demand delivery with estimated time. Customers can track their orders in real time, from preparation to delivery.
-  - **Personalized Recommendations**: Tailored suggestions based on customer preferences and past orders.
-  - **Flexible Workforce**: Drivers choose their working hours, allowing for flexibility.
-
-- **Customer Segments**:
-  - **Individuals & Groups**: Different types of individual or group customers seeking convenience, varied options, and timely delivery.
-  - **Corporate Customers**: Offices ordering food for employees.
-  - **Merchants**: Restaurant owners looking to reach more customers and increase sales.
-  - **Drivers**: Freelance delivery partners seeking flexible income.
-  - **Vehicle Owners**: Fleet owners looking to make use of vehicle idle time.
-
-- **Channels**:
-  - **End-User Application**: Mobile and web apps where customers can place orders.
-  - **Push Notification**: Updates on offers, promotions, and delivery status notifications (Email, SMS, in-app).
-  - **Social Media**: Promotion, customer engagement, and marketing.
-  - **Partnerships with Merchants**: In-app branding, loyalty programs, and direct partnerships.
-  - **Driver Application**: Mobile app, the primary interface for drivers to deliver orders.
-  - **Merchant Application**: Mobile and web app for merchants to manage menus, schedule, and orders.
-
-- **Customer Relationships**:
-  - **User-friendly Interface**: Easy to use and navigate for seamless food ordering.
-  - **Loyalty Programs**: Rewards for frequent users (points, free meals, discounts).
-  - **24/7 Customer Support**: Live chat, email, and phone support for users and merchant partners.
-  - **Personalization**: Tailored recommendations based on order history and preferences.
-  - **Feedback System**: Customer reviews and ratings for continuous improvement.
-  - **User Communities and Referral Programs**: Encourages engagement and a sense of community among users.
-
-- **Key Activities**:
-  - **Platform Development & Maintenance**: Keeping mobile and web platforms updated.
-  - **Marketing & Customer Acquisition**: Advertising campaigns, promotional offers, and branding efforts.
-  - **Order & Payment Processing**: Smooth coordination of orders, payments, and payouts.
-  - **Logistics Providers**: Delivery matching, route optimization, and timely delivery.
-  - **Customer Support**: Resolving complaints and issues.
-  - **Partnership Management**: Coordinating with merchants and keeping them engaged as essential partners.
-  - **Performance Monitoring**: Tracking delivery times, driver efficiency, and customer satisfaction for continuous improvement.
-
-- **Key Partners**:
-  - **Merchants**: Restaurants offering food via the platform.
-  - **Drivers**: Freelance delivery workforce.
-  - **Payment Processors**: Payment gateways used to process transactions.
-  - **Logistics Providers**: Vehicle leasing and support services.
-  - **Technology Providers**: Cloud, analytics, maps, messaging, and email services.
-  - **Regulatory Bodies**: Food safety, transportation regulations, and compliance.
-
-- **Key Resources**:
-  - **Technology Infrastructure**: Platform, servers, payment systems.
-  - **Intellectual / Algorithms**: Unique algorithms for delivery optimization, data models, and patents.
-  - **Delivery Fleet**: Network of freelance or contracted drivers.
-  - **Merchant Partnerships**: A wide range of food suppliers.
-  - **Data & Analytics**: Customer data for personalized marketing and logistics efficiency.
-  - **Brand & Marketing Assets**: Promotions and advertising content.
-
-- **Cost Structure**:
-  - **Platform Development & Maintenance**: Software and infrastructure costs.
-  - **Customer Support**: Costs of staff and systems for handling queries.
-  - **Insurance & Compliance**: Insurance for drivers and delivery-related regulations.
-  - **Marketing & Advertising**: Campaigns to acquire and retain customers.
-  - **Payment Processing Fees**: Charges by payment gateways.
-  - **Incentives and Bonuses**: Performance-based rewards for drivers.
-
-- **Revenue Streams**:
-  - **Delivery Fees**: Charged to customers per order or based on distance.
-  - **Commission Fees**: Percentage of sales from merchants.
-  - **Advertising Fees**: Merchants pay for boosted visibility.
-  - **Surge Pricing**: Dynamic delivery fees based on demand.
-  - **Subscription Plans**: Membership-based benefits for customers.
-  - **Cancellation Fees**: Potential revenue stream to cover operational risks.
+| **Value Propositions** |             |
+|------------------------|-------------|
+|**Convenience**| Customers can order food from various restaurants without leaving their location. Options for high-end, mid-range, and budget-conscious customers.|
+|**Variety**| A wide range of restaurants and cuisines available to order from a single platform.|
+|**Speed/Tracking**| On-demand delivery with estimated time. Customers can track their orders in real time, from preparation to delivery.|
+|**Personalized Recommendations**| Tailored suggestions based on customer preferences and past orders.|
+|**Flexible Workforce**| Drivers choose their working hours, allowing for flexibility.|
+---
+| **Customer Segments** |            |
+|-----------------------|------------|
+|**Individuals & Groups**| Different types of individual or group customers seeking convenience, varied options, and timely delivery.|
+|**Corporate Customers**| Offices ordering food for employees.|
+|**Merchants**| Restaurant owners looking to reach more customers and increase sales.|
+|**Drivers**| Freelance delivery partners seeking flexible income.|
+|**Vehicle Owners**| Fleet owners looking to make use of vehicle idle time.|
+---
+|**Channels**|            |
+|------------|------------|
+|**End-User Application**| Mobile and web apps where customers can place orders.|
+|**Push Notification**| Updates on offers, promotions, and delivery status notifications (Email, SMS, in-app).|
+|**Social Media**| Promotion, customer engagement, and marketing.|
+|**Partnerships with Merchants**| In-app branding, loyalty programs, and direct partnerships.|
+|**Driver Application**| Mobile app, the primary interface for drivers to deliver orders.|
+|**Merchant Application**| Mobile and web app for merchants to manage menus, schedule, and orders.|
+---
+|**Customer Relationships**||
+|---|---|
+|**User-friendly Interface**| Easy to use and navigate for seamless food ordering.|
+|**Loyalty Programs**| Rewards for frequent users (points, free meals, discounts).|
+|**24/7 Customer Support**| Live chat, email, and phone support for users and merchant partners.|
+|**Personalization**| Tailored recommendations based on order history and preferences.|
+|**Feedback System**| Customer reviews and ratings for continuous improvement.|
+|**User Communities and Referral Programs**| Encourages engagement and a sense of community among users.|
+---
+|**Key Activities**||
+|---|---|
+|**Platform Development & Maintenance**| Keeping mobile and web platforms updated.|
+|**Marketing & Customer Acquisition**| Advertising campaigns, promotional offers, and branding efforts.|
+|**Order & Payment Processing**| Smooth coordination of orders, payments, and payouts.|
+|**Logistics Providers**| Delivery matching, route optimization, and timely delivery.|
+|**Customer Support**| Resolving complaints and issues.|
+|**Partnership Management**| Coordinating with merchants and keeping them engaged as essential partners.|
+|**Performance Monitoring**| Tracking delivery times, driver efficiency, and customer satisfaction for continuous improvement.|
+---
+|**Key Partners**||
+|---|---|
+|**Merchants**| Restaurants offering food via the platform.|
+|**Drivers**| Freelance delivery workforce.|
+|**Payment Processors**| Payment gateways used to process transactions.|
+|**Logistics Providers**| Vehicle leasing and support services.|
+|**Technology Providers**| Cloud, analytics, maps, messaging, and email services.|
+|**Regulatory Bodies**| Food safety, transportation regulations, and compliance.|
+---
+|**Key Resources**||
+|---|---|
+|**Technology Infrastructure**| Platform, servers, payment systems.|
+|**Intellectual / Algorithms**| Unique algorithms for delivery optimization, data models, and patents.|
+|**Delivery Fleet**| Network of freelance or contracted drivers.|
+|**Merchant Partnerships**| A wide range of food suppliers.|
+|**Data & Analytics**| Customer data for personalized marketing and logistics efficiency.|
+|**Brand & Marketing Assets**| Promotions and advertising content.|
+---
+|**Cost Structure**||
+|---|---|
+|**Platform Development & Maintenance**| Software and infrastructure costs.|
+|**Customer Support**| Costs of staff and systems for handling queries.|
+|**Insurance & Compliance**| Insurance for drivers and delivery-related regulations.|
+|**Marketing & Advertising**| Campaigns to acquire and retain customers.|
+|**Payment Processing Fees**| Charges by payment gateways.|
+|**Incentives and Bonuses**| Performance-based rewards for drivers.|
+---
+|**Revenue Streams**||
+|---|---|
+|**Delivery Fees**| Charged to customers per order or based on distance.|
+|**Commission Fees**| Percentage of sales from merchants.|
+|**Advertising Fees**| Merchants pay for boosted visibility.|
+|**Surge Pricing**| Dynamic delivery fees based on demand.|
+|**Subscription Plans**| Membership-based benefits for customers.|
+|**Cancellation Fees**| Potential revenue stream to cover operational risks.|
 
 ---
 
