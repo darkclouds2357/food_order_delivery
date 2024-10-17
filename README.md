@@ -17,7 +17,6 @@ This document outlines the design of a **Food Order & Delivery System** using Do
 ---
 
 ## Business Model Canvas
-### Objective:
 ![Business Model Canvas](./resources/food_delivery_design-business_model_canvas_short.drawio.png)
 
 
@@ -500,7 +499,6 @@ This document outlines the design of a **Food Order & Delivery System** using Do
 ---
 
 ## Prioritization of Core Domains
-### Objective:
 Rank core domains based on their business value and complexity.
 
 ### Prioritized Domains:
@@ -529,7 +527,6 @@ Rank core domains based on their business value and complexity.
 ---
 
 ## Bounded Context Canvas
-### Objective:
 ### 1. **Shopping Cart Bounded Context**:
 ![Shopping Cart UML](/UML/shoping_cart_uml.svg)
 
@@ -542,7 +539,6 @@ Rank core domains based on their business value and complexity.
 ---
 
 ## C4 Model Architecture (Level 2)
-### Objective:
 Create a container diagram that illustrates how major system components interact.
 
 ![C4 Model Diagram](/resources/food_delivery_design-architecture.drawio.png)
