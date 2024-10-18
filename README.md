@@ -541,7 +541,9 @@ Rank core domains based on their business value and complexity.
 
 ## Bounded Context Canvas
 ### 1. **Shopping Cart Bounded Context**:
-![Shopping Cart UML](/UML/shoping_cart_uml.svg)
+![Shopping Cart Canvas](/resources/food_delivery_design-shopping_cart_context_canvas.drawio.png)
+
+
 
 ### 2. **Order State Bounded Context**:
 ![Order State UML](/UML//order_state_uml.svg)
