@@ -60,7 +60,7 @@ This document outlines the design of a **Food Order & Delivery System** using Do
 |**Platform Development & Maintenance**| Keeping mobile and web platforms updated.|
 |**Marketing & Customer Acquisition**| Advertising campaigns, promotional offers, and branding efforts.|
 |**Order & Payment Processing**| Smooth coordination of orders, payments, and payouts.|
-|**Logistics Providers**| Delivery matching, route optimization, and timely delivery.|
+|**Logistics Providers**| Provide vehicle leasing and support services for delivery operations.|
 |**Customer Support**| Resolving complaints and issues.|
 |**Partnership Management**| Coordinating with merchants and keeping them engaged as essential partners.|
 |**Performance Monitoring**| Tracking delivery times, driver efficiency, and customer satisfaction for continuous improvement.|
@@ -137,8 +137,9 @@ This document outlines the design of a **Food Order & Delivery System** using Do
 |--------------|-----------|----------------|
 | 1            | **Order Management**| Highest business value due to its direct impact on customer satisfaction and revenue generation.|
 | 2            | **Delivery Management** | Critical for ensuring timely and efficient deliveries, directly affecting customer experience.|
-| 3            | **Payment Gateway**| Important for handling financial transactions securely and maintaining user trust.|
-| 4            | **Authentication & Authorization**| Essential for securing the platform, managing user access, and ensuring compliance with security protocols. |
+| 3            | **Authentication & Authorization**| Essential for securing the platform, managing user access, and ensuring compliance with security protocols. |
+| 4            | **Location & Route Management**| Important for cost optimization, Unique algorithms for effectively delivery.|
+
 
 
 ---
