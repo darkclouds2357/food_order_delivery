@@ -545,12 +545,8 @@ Rank core domains based on their business value and complexity.
 
 
 
-### 2. **Order State Bounded Context**:
-![Order State UML](/UML//order_state_uml.svg)
-
-
-### 3. **Order Matching Bounded Context**:
-![Order Matching UML](/UML/order_matching_uml.svg)
+### 2. **Order Matching Bounded Context**:
+![Order Matching Canvas](/resources/food_delivery_design-order_matching_context.drawio.png)
 ---
 
 ## C4 Model Architecture (Level 2)
