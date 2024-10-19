@@ -574,7 +574,7 @@ Create a container diagram that illustrates how major system components interact
    - **Security Token System**: Issues and validates security tokens for secure API access.
    - **Identity Services**: Manages user roles and identity (customers, merchants, drivers, staffs).
 
-4. **Core Domains:**
+4. **Business Domains:**
    - **Order Management Domain**:
      - **Shopping Cart Service**: Manages customer carts, pricing, promotions, and availability checks.
      - **Order State Service**: Manages the lifecycle of customer orders, from placement to completion.
