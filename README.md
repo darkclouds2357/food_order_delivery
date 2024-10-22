@@ -512,8 +512,6 @@ This document outlines the design of a **Food Order & Delivery System** using Do
 ---
 
 ## Prioritization of Core Domains
-Rank core domains based on their business value and complexity.
-
 ### Prioritized Domains:
 
 | **Priority** | **Domain**| **Business Value** | **Complexity** | **Description**|
@@ -550,8 +548,6 @@ Rank core domains based on their business value and complexity.
 ---
 
 ## C4 Model Architecture (Level 2)
-Create a container diagram that illustrates how major system components interact.
-
 ![C4 Model Diagram](/resources/food_delivery_design-architecture.drawio.png)
 
 
